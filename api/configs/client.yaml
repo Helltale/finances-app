@@ -1,0 +1,6 @@
+output-options:
+  skip-prune: true
+output: ../internal/generated/client.go
+package: generated
+generate:
+  client: true

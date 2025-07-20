@@ -1,0 +1,24 @@
+finances-app/
+├── api/
+│   ├── configs/
+│   │   ├── client.yaml
+│   │   ├── server.yaml
+│   │   └── types.yaml
+│   ├── gen.go
+│   └── openapi.yaml
+├── cmd/
+│   └── server/
+│       └── main.go
+├── internal/
+│   ├── generated/          # Будет создана при генерации
+│   ├── models/
+│   ├── service/
+│   ├── handler/
+│   └── repository/
+├── tools/
+│   └── tools.go
+├── docker/
+├── go.mod
+├── go.sum
+├── Makefile
+└── .gitignore
